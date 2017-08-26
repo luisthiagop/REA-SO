@@ -1,3 +1,9 @@
+#inicio{
+  background-image: url('../img/supercomputador1.jpg') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 /*!
  * Start Bootstrap - Freelancer v4.0.0-beta (http://startbootstrap.com/template-overviews/freelancer)
  * Copyright 2013-2017 Start Bootstrap
@@ -163,7 +169,7 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  background: #18BC9C; }
+}
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
