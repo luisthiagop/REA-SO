@@ -1,11 +1,17 @@
 #inicio{
-  background-image: url('../img/supercomputador1.jpg') !important;
+  background-image: url("../img/supercomputador1.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center center;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
 }
+
 /*!
- * Start Bootstrap - Freelancer v4.0.0-beta (http://startbootstrap.com/template-overviews/freelancer)
+ * Start Bootstrap - Freelancer v4.0.0-beta (https://startbootstrap.com/template-overviews/freelancer)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
@@ -108,7 +114,7 @@ section.success {
 
 #mainNav {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 300;
   text-transform: uppercase;
   border: none;
   background: #2C3E50; }
@@ -141,8 +147,8 @@ section.success {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    /*padding-top: 25px;
+    padding-bottom: 25px;*/
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s; }
@@ -169,7 +175,7 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-}
+  background: #18BC9C; }
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
