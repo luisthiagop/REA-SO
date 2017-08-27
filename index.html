@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/timeline.css">
 
     <style type="text/css">
       .light-link, .light-link:hover{
@@ -47,6 +48,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#arquitetura">Arquitetura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#evolucao">Evolução</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -150,7 +154,7 @@
     <section class="success" id="arquitetura">
       <div class="container">
         <h2 class="text-center">Arquitetura</h2>
-        
+        <hr class="star-light">
         <div class="row">
           <div class="col-lg-12 text-justify">
             <p>Computadores paralelos podem ser classificados de acordo com o nível em que o hardware suporta o paralelismo. Computadores multinúcleos possuem muitos elementos de processamento em uma máquina só, enquanto que clusters e MPP (Massively Parallel Processor) usam múltiplos computadores para processar as mesmas tarefas. Atualmente, as arquiteturas mais utilizadas em supercomputadores são o cluster e o MPP.</p>
@@ -169,8 +173,36 @@
             </a>
           </div>-->
         </div>
-          <hr class="star-light">
+        <hr>
+        <div class="row">
+          <div class="col-lg-12">
+            <h4 class="text-center">PROCESSADOR</h4>
+            <p class="text-justify">
+              Os principais fatores a serem levados em conta para os processadores são
+              sua quantidade, número de núcleos de cada um, frequência de operação, consumo,
+              dissipação de calor e custo (SILVA et al., 2009).
+            </p>
+            <p class="text-justify">
+              Segundo Tsukamoto (2010), a velocidade de processamento de um
+              supercomputador é medida em FLOPS (Floating Point Operations Per Second), ou
+              seja, quantidade de operações de ponto flutuante por segundo. Os
+              supercomputadores atuais atingem a grandeza dos petaflops (PFLOPS), o que
+              equivale a quatrilhões de cálculos por segundo. Um computador pessoal chega aos
+              100 gigaflops (Core i7 980x Intel), cerca de 10 mil vezes menor.
+            </p>
+            <p class="text-justify">
+              Quando se usa muitos processadores e núcleos, é consumida muita energia e
+              há grande dissipação de calor, sendo necessário que as salas em que os
+              supercomputadores são mantidos devem conter sistemas de refrigeração especiais.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <h4 class="text-center">INTERCONEXÃO</h4>
+          </div>
+        </div>
+          <hr>
           <h3 class="text-center">Sunway TaihuLight</h3>
+          <hr class="star-light">
           <div class="row">
               <div class="col-lg-12 text-justify">
                   <p>
@@ -182,10 +214,200 @@
               </div>
           </div>
       </div>
-
-
     </section>
 
+    <section id="evolucao">
+      <div class="container">
+        <h2 class="text-center">Evolução</h2>
+        <hr class="star-primary">
+        <p class="text-center">Confira a evolução dos Supercomputadores com o passar do tempo.</p>
+        <ul class="timeline">
+          <li>
+            <div class="timeline-badge">
+              1946
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">ENIAC</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 500 Flops/s</p>
+                <p><b>Tamanho:</b> 167,22 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-badge">
+              1965
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">CDC 6600</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 3 Mil Flops/s</p>
+                <p><b>Tamanho:</b> 46 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-badge">
+              1968
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">IBM SYSTEM/360 MODEL 91</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 5 Mil Flops/s</p>
+                <p><b>Tamanho:</b> 865 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-badge">
+              1976
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">CRAY-1</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 160 Mil Flops/s</p>
+                <p><b>Tamanho:</b> 6  Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-badge">
+              1982
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">CRAY X-MP</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 800 Mil Flops/s</p>
+                <p><b>Tamanho:</b> 10 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-badge">
+              1985
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">CRAY-2</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 1.9 Bilhões Flops/s</p>
+                <p><b>Tamanho:</b> 1.4 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-badge">
+              1997
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">ASCI RED</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 2 Trilhões Flops/s</p>
+                <p><b>Tamanho:</b> 148 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-badge">
+              2001
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">ASCI WHITE</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 7 Trilhões Flops/s</p>
+                <p><b>Tamanho:</b> 1114 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-badge">
+              2002
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">NEC EARTH SIMULATOR</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 36 Trilhões Flops/s</p>
+                <p><b>Tamanho:</b> 3158 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-badge">
+              2005
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">IBM BLUE GENE/L</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 470 Trilhões Flops/s</p>
+                <p><b>Tamanho:</b> 232 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-badge">
+              2012
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">IBM SEQUOIA</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 16 Quadrilhões Flops/s</p>
+                <p><b>Tamanho:</b> 317 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-badge">
+              2013
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">NUDT TIANHE-2</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 34 Quadrilhões Flops/s</p>
+                <p><b>Tamanho:</b> 719 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-badge">
+              2016
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">SUNWAY TAIHULIGHT</h4>
+              </div>
+              <div class="timeline-body">
+                <p><b>Processamento:</b> 93 Quadrilhões Flops/s</p>
+                <p><b>Tamanho:</b> 182 Metros Quadrados</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <p class="text-center text-muted">Fonte: <a href="http://www.popsci.com/supercomputers-then-and-now">http://www.popsci.com/supercomputers-then-and-now</a></p>
+      </div>
+    </section>
     
 
     <!-- Footer -->
