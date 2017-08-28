@@ -199,7 +199,7 @@
                               </th>
 
                               <td>
-                                   40960 processadores <b>SW26010</b> 
+                                  <b>SW26010</b> 
                               </td>
                           </tr>
                           <tr>
@@ -222,14 +222,49 @@
                           </tr>   
                       </table>
 
-                  <ul>
-                    <li>
-                        <p>O SW26010 é um processador multinúcleo que contém 260 núcleos, ele segue a arquitetura RISC (Reduced Instruction Set Computer), onde todas as instruções possuem o mesmo tamanho no caso 64 bits.</p>
 
-                    </li>
-                  </ul>
+                  <h4>Processador</h4>
+                  
+                        <p>O SW26010 é um processador multinúcleo que contém 260 núcleos(CPEs e MPEs), ele segue a arquitetura RISC (Reduced Instruction Set Computer), onde todas as instruções possuem o mesmo tamanho no caso 64 bits. Ele é composto por:</p>
+                        <ul>
+                            <li>
+                              4 cluster de Elementos de Processamento de Computação(CPE), cada cluster possui 64 CPE,
+                            </li>
+                            <li>
+                              4 Elemento Gerenciador de Processamento(MPE).
+                            </li>
+                            <li>Além de um Network on Chip (NoC) que é conectado à Interface do Sistema (SI), que é uma interface PCIe padrão de 16GB/s.</li>
+                        </ul>
+                        <p> Cada MPE e CPE é um RISC de 64 bits que processa instruções de 264bits, com cache L1 de 16KB 64KB de Scratch Pad Memory(memória de acesso rápido),  porém o CPE só tem suporte ao modo usuario, sendo o modo sistema restrito ao MPE.</p>
+                        <p> A estrura do processador é explicada na figura abaixo.</p>
+                        <center>                        
+                            <img style="border-radius: 50px;" height="400" width="800" src="./img/node.png">
+                            <p> Cada processador representa um nó do TaihuLight.</p>
 
 
+                        </center>
+
+                        <p> Na próxima figura é exemplificada a conexão entre os nós e os elementos externos</p>
+
+                        <center>                        
+                            <img style="border-radius: 50px;" height="400" width="800" src="./img/interface.png">
+                        </center>
+
+
+                        <hr class="star-light">  
+
+                        <p> Para se ter uma idéia da grandeza desse computador:</p>
+                        <ul>
+                          <li>1 Nó = 260 núcleos </li>
+                          <li>1 Nó = 3.06 Tflop / s </li>
+                          <li>1 Super nó = 256 nós</li> 
+                          <li>1 Super nó = 783.97 Tflops 
+                          <li>1 Gabinete = 4 Super nó</li> 
+                          <li>1 Gabinete = 3.1359 Pflops</li> 
+                          <li>1 Sunway TaihuLight = 40 Armários = 160 Super nós = 40.960 nós = 10.649.600
+                          núcleos. </li>
+                          <li>1 Sunway TaihuLight = 125.4359 Pflop / s</li>
+                        </ul>
               </div>
           </div>
       </div>
@@ -239,7 +274,7 @@
 
     <section id="evolucao">
       <div class="container">
-        <h2 class="text-center">Evolução</h2>
+        <h2 class="text-center">Evolução dos Supercomputadores</h2>
         <hr class="star-primary">
         <p class="text-center">Confira a evolução dos Supercomputadores com o passar do tempo.</p>
         <ul class="timeline">
